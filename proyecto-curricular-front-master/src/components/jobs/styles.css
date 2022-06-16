@@ -1,0 +1,88 @@
+h3{
+    color: rgba(252, 252, 252, 0.26);
+}
+.h-text{
+    color: rgba(252, 252, 252, 0.26);
+}
+.default-form input[type="file"] {
+    color: rgb(0, 0, 0);
+}
+.white{
+    color:white;
+}
+.knowledge-list {
+    list-style: none;
+    padding: 0;    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.knowledge-list  li {
+    border: 2px solid #00C897;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    flex: 0 0 calc( 50% - 1rem);
+    text-align: center;
+    border-radius: 1rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.knowledge-list  li.active {
+    background-color: #00C897;
+}
+.knowledge-list  li:hover {
+    cursor: pointer;
+}
+
+@media (min-width:480px) {
+    .knowledge-list li {
+        flex: 0 0 calc( 33% - 1rem);
+    }
+}
+@media (min-width:768px) {
+    .knowledge-list li {
+        flex: 0 0 calc( 25% - 1rem);
+    }
+}
+@media (min-width:992px) {
+    .knowledge-list li {
+        flex: 0 0 calc( 20% - 1rem);
+    }
+}
+.field.description {
+    display: block;
+}
+.field.description label {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+
+
+/*Trix*/
+trix-toolbar, 
+trix-editor {
+    background-color: white!important;
+}
+trix-toolbar {
+    padding: 1rem;
+}
+trix-editor {
+    font-size: 1.8rem;
+    min-height: 30rem!important;
+    padding: 2rem;
+}
+trix-editor h1, 
+trix-editor blockquote {
+    color: black;
+}
+trix-toolbar .trix-button-group {
+    margin-bottom: 0;
+}
+trix-toolbar .trix-button--icon-strike {
+    display: none;
+}

@@ -1,0 +1,187 @@
+@media (min-width:768px) {
+
+    .vacancie {
+        display: flex;
+    }
+    .box {
+        flex: 1;
+    }
+    .box:first-of-type{
+        flex: 2;
+    }
+}
+.vacancie {
+    padding: 3rem 0;
+    border-bottom: 1px solid #272727;
+}
+.vacancie:last-of-type{
+    border:none;
+}
+.box {
+    padding: .5rem 0;
+}
+.box p {
+    color: #ffffff;
+}
+.contract {
+    text-transform: capitalize;
+}
+.box .position,
+.box .tag {
+    font-weight: 700;
+    color: #616065;
+    font-size: 2.6rem;
+    margin: 0;
+    text-align: left;
+}
+.box .tag {
+    margin:1rem 0 0 0;
+}
+.box .name { 
+    font-size: 2.4rem; 
+    margin: .5rem 0; 
+    text-align: left;
+}
+.box .btn {
+    text-align: center;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-f-size__15{
+    font-size: 2rem;
+}
+.btn-f-weight__bold{
+    font-weight: bold ;
+}
+.container-vacancie {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.upper-content {
+    margin-bottom: 6rem;
+}
+.vacancie-description h1 {
+    line-height: 1.4;
+}
+.vacancie-description *{
+    color: white!important;
+    line-height: 2.2;
+}
+.skills {
+    color: white;
+}
+.skills li,
+.vacancie-description div  {
+    font-size: 1.8rem;
+    line-height: 2.4;
+}
+.send-data h2 {
+    font-size: 4rem;
+    color: white;
+}
+.send-data p {
+    color: white;
+    font-size: 1.8rem;
+}
+/* .send-data form {
+
+} */
+.info-recruiter h2 {
+    color: #616065;
+    font-size: 2.4rem;
+    padding-top:3rem;
+}
+.info-recruiter img {
+    max-width: 300px;
+    width: 100%;
+}
+.data-recruiter {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0rem;
+}
+.data-recruiter p {
+    font-size: 2.4rem;
+    color: white;
+}
+@media (min-width:768px){
+    .send-data {
+        flex: 0 0 calc(70% - 1rem);
+    }
+    .info-recruiter {
+        flex: 0 0 calc(30% - 1rem );
+    }
+}
+.default-form {
+    max-width: 800px;
+    margin: 4rem  auto 0 auto; 
+}
+.default-form h3 {
+    color: #616065;
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    
+}
+.default-form .field {
+    margin-bottom: 3rem;
+    display: flex;   
+}
+.default-form label {
+    padding-top: 1rem;
+    flex: 0 0 18rem;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.default-form input[type="email"],
+.default-form input[type="password"],
+.default-form input[type="text"],
+.default-form input[type="number"],
+.default-form input[type="file"],
+.default-form select{
+    flex: 1;
+    height: 4.5rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    border: none;
+} 
+
+.default-form input[type="file"] {
+    color: rgb(0, 0, 0);
+}
+.default-form input[type="submit"] {
+    margin-top: 2rem;
+}
+.default-form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.default-form .acciones {
+    display: flex;
+    justify-content: space-between;
+}
+.default-form a {
+    color: #616065;
+    text-decoration: none;
+}
+.error{
+    border:0.2rem solid #fd3232 !important;
+}
+.alert-text p{
+    color:red;
+}
+.default-form textarea {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    border: none;
+}

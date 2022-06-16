@@ -1,0 +1,105 @@
+h1{
+    font-size: 5rem;
+}
+h1 span{
+    font-size: 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.navbar .sesion a{
+    color:#888 !important;
+    font-size:1.6rem;
+
+}
+.searcher {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.searcher form {
+    flex:1;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .searcher form {
+        flex: 0 0 40%;
+    }
+}
+.searcher input[type="text"] {
+    background-color: rgba(255,255,255,.1);
+    width: 100%;
+    border: none;
+    padding: .5rem 4rem .5rem 2rem;
+    height: 5rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.searcher input[type="submit"] {
+    display: block;
+    text-indent: -9999px;
+    height: 30px;
+    width:30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url(./assets/lupa.png);
+    background-color: transparent;
+    border: none;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.searcher input[type="submit"]:hover {
+    cursor: pointer;
+}
+.nav--services{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-left: 1.5rem;
+}
+.adv_searcher{
+    background-color: rgba(255,255,255,.1);
+    width: 100%;
+    border: none;
+    padding: .5rem 4rem .5rem 2rem;
+    height: 5rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.adv_searcher::placeholder{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.adv_searcher:focus::placeholder{
+    color: rgba(255,255,255,.1);
+}
+.adv_searcher:focus{
+    font-size: 2rem;
+}
+.btn-large{
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+legend{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.nav-image{
+    width: 10%;
+    height: 10%;
+}

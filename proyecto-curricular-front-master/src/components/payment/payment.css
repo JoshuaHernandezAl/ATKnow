@@ -1,0 +1,33 @@
+.w_70{
+    width: 50%;
+}
+.payment-form{
+    border-radius: 5px;
+    padding: 2%;
+    margin-right: 15px;
+    background: #390366;
+}
+.btn-center{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn-center input{
+    grid-column: 2;
+    width: 80%;
+    text-align:center;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.payment-form .btnSubmit{
+    color: #fff;
+    background-color: #0062cc;
+}
+.payment-form form{
+    padding: 10%;
+}

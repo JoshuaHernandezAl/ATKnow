@@ -1,0 +1,39 @@
+{
+  "name": "proyecto-esime-back",
+  "version": "1.0.1",
+  "description": "devjobs para titulacion",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "keywords": [
+    "devjobs"
+  ],
+  "author": "joshua hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "html-to-text": "^8.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "juice": "^8.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7",
+    "multer": "^1.4.3",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.5",
+    "pug": "^3.0.2",
+    "shortid": "^2.2.16",
+    "slug": "^5.1.0",
+    "stripe": "^8.184.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

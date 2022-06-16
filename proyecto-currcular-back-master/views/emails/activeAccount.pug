@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style 
+            include ./email.css
+    body 
+        div.center
+            img.headerImage(src="http://localhost:4000/assets/logo.png" alt='All-That-We-Know-logo')
+        h2 Activa tu cuenta.
+        p Has click en el siguiente enlace para activar tu cuenta
+        a(href=`${activeUrl}`) Activar cuenta 
+        p Si no puedes accerder a este enlace, visita  #{activeUrl}
+        p En caso de no haber creado una cuenta con nosotros ignora el mensaje.

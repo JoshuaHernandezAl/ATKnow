@@ -1,0 +1,90 @@
+.none{
+    text-decoration: none;
+}
+.login-container{
+    margin-top: 5%;
+}
+.login-form-1{
+    border-radius: 5px;
+    padding: 5%;
+    margin-right: 15px;
+    background: #390366;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.login-form-2{
+    border-radius: 5px;
+    padding: 5%;
+    background: #0062cc;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    background-color: #fff;
+    color: #0062cc;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.center{
+    margin-top:2rem;
+    text-align:center;
+}
+label{
+    color:#FFFFFF;
+    font-weight: 700;
+}
+.btn-center{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.btn-center input{
+    grid-column: 2;
+    width: 100%;
+    text-align:center;
+}
+.f-size{
+    font-size: 1.3rem;
+}
+.link_ls{
+    text-decoration: none;
+    color: #7c7c7c;
+}
+.link_rs{
+    font-weight: normal;
+    text-decoration: none;
+    color:#363636;
+}
+.login-form-2__ss{
+    border-radius: 5px;
+    padding: 5%;
+    background: #c0c0c0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
